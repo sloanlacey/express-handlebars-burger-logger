@@ -7,6 +7,7 @@ This application uses handlebars, express, a MySQL database and a custom ORM to 
 ## Table of contents
 
 - [General Info](#general-info)
+- [Burger Page](#burger-page)
 - [Usage Instructions](#usage-instructions)
 - [Technologies](#technologies)
 - [Summary](#summary)
@@ -15,6 +16,10 @@ This application uses handlebars, express, a MySQL database and a custom ORM to 
 ## General Info
 
 This application is deployed to heroku.
+
+## Burger Page
+
+![burger-page]()
 
 ## Usage Instructions
 
