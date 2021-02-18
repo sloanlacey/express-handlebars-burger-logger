@@ -19,7 +19,7 @@ This application is deployed to heroku.
 
 ## Burger Page
 
-![burger-page]()
+![burger-page](https://github.com/sloanlacey/express-handlebars-burger-logger/blob/main/public/assets/images/burger-page.png)
 
 ## Usage Instructions
 
