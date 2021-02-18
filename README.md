@@ -19,9 +19,9 @@ This application is deployed to heroku.
 
 ## Usage Instructions
 
-![Demo]()
+![Demo](https://github.com/sloanlacey/express-handlebars-burger-logger/blob/main/public/assets/images/demo.gif)
 
-Click [here](https://drive.google.com/file/d/167LM4ToZSBy6t49jK19jS2lcgen0KYQD/view) for a full video demonstration.
+Click [here](https://drive.google.com/file/d/1Nn0AkmnrWsNaZQaLhU0DvMA786NQ3cd6/view) for a full video demonstration.
 
 ## Technologies
 
