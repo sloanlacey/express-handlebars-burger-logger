@@ -1,3 +1,4 @@
+// Require ORM
 const orm = require('../config/orm');
 
 const burger = {
@@ -19,5 +20,5 @@ const burger = {
         })
     }
 };
-
+// Export burger for use by model
 module.exports = burger;

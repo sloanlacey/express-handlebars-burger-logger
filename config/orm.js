@@ -1,5 +1,6 @@
+// Require connection
 const connection = require('./connection');
-
+// Helper function creates questionmarks for MySQL query statements
 function questionMarks(num) {
     const qArr = [];
 
@@ -9,7 +10,7 @@ function questionMarks(num) {
 
     return qArr.toString();
 }
-
+// Helper function converts object to key/value pairs
 function objSql(ob) {
     const obArr = [];
 
@@ -29,7 +30,6 @@ function objSql(ob) {
 const orm = {
     selectAll: function(table, cb) {
         const queryString = `SELECT * FROM ${table};`;
-        console.log('orm.js console', queryString);
         connection.query(queryString, (err, res) => {
             if (err) throw err;
             cb(res);
@@ -45,8 +45,6 @@ const orm = {
         queryString += "VALUES (";
         queryString += questionMarks(vals.length);
         queryString += ") ";
-
-        console.log('orm.js console', queryString);
         
         connection.query(queryString, vals, (err, res) => {
             if (err) throw err;
@@ -61,8 +59,6 @@ const orm = {
         queryString += objSql(objColVals);
         queryString += " WHERE ";
         queryString += condition;
-
-        console.log('orm.js console', queryString);
 
         connection.query(queryString, (err, res) => {
             if (err) throw err;

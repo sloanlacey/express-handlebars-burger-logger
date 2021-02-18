@@ -13,7 +13,6 @@ $(function() {
             data: burgerStatus
         }).then(
             function() {
-                console.log('Changed burger status to ', burgerStatus.devoured);
                 location.reload();
             }
         )
@@ -36,7 +35,6 @@ $(function() {
             data: newBurger
         }).then(
             function() {
-                console.log('Created new burger');
                 location.reload();
             }
         )
