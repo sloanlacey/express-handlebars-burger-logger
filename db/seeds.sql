@@ -1,12 +1,12 @@
 INSERT INTO burgers (burger_name, devoured)
-VALUES ('hamburger', false),
-('cheeseburger', false),
-('bacon cheeseburger', false),
-('mushroom and swiss burger', false),
-('veggie burger', false),
-('beyond burger', false),
-('patty melt', false),
-('butter burger', false),
-('smash burger', false),
-('fried onion burger', false),
-('steam burger', false);
+VALUES ('Ruta-Bag-A Burger', false),
+('50 Ways to Leave Your Guava Burger', false),
+('Summer Thyme Burger', false),
+('Yes I Cayenne Burger', false),
+('Sweet Home Avocado Burger', false),
+('Is This Your Chard Burger', false),
+('One Fish, Two Fish, Red Fish Hamburger', false),
+('Grandpa Muenster Burger', false),
+('Three Beets to the Wind Burger', false),
+('Itsy Bitsy Teeny Weenie Yellow Polka-Dot Zucchini Burger', false),
+('The Roquefort Files Burger', false);

@@ -1,0 +1,43 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.jumbotron {
+    text-align: center;
+    justify-content: center;
+    border: 5px solid #F2D377;
+    border-radius: 1%;
+}
+
+h2 {
+    padding-top: 5px;
+}
+
+.navbar-brand {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+
+.ready,
+.devoured,
+.new,
+.burgerPic {
+    background-color: #ffffff;
+    opacity: .90;
+    margin: auto;
+}
+
+.burgerPic img {
+    width: 95%;
+    height: auto;
+    margin: auto;
+}
+
+#ready,
+#devoured {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
