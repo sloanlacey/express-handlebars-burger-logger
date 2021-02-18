@@ -7,7 +7,6 @@ This application uses handlebars, express, a MySQL database and a custom ORM to 
 ## Table of contents
 
 - [General Info](#general-info)
-- [Code Snippets](#code-snippets)
 - [Usage Instructions](#usage-instructions)
 - [Technologies](#technologies)
 - [Summary](#summary)
@@ -41,7 +40,7 @@ This project was created with:
 
 ## Summary
 
-- 
+- This application allows users to build CRUD functions in the MVC model using an ORM. It is launched from the command line and run on the localhost of your choosing. The functionality of this application allows users to manipulate databases and data and move it around on HTML pages through the use of handlebars.
 
 ## Author
 
