@@ -29,6 +29,13 @@ h2 {
     margin: auto;
 }
 
+.chomp-btn {
+    background-color: #8C0D24;
+    font-weight: bold;
+    color: #F2D377;
+    border: 3px solid #F2D377;
+}
+
 .burgerPic img {
     width: 95%;
     height: auto;
