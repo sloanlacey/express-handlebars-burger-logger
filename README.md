@@ -15,7 +15,7 @@ This application uses handlebars, express, a MySQL database and a custom ORM to 
 
 ## General Info
 
-This application is deployed to heroku.
+This application is deployed [here](https://arcane-inlet-49158.herokuapp.com/) on heroku.
 
 ## Burger Page
 
